@@ -11,6 +11,7 @@ import com.hibernate.util.HibernateUtil;
 public class EmployeeDemo {
 
 	public static void main(String[] args) {
+		System.out.println("Hellow");
 		// TODO Auto-generated method stub
 		Employee e1=new Employee();
 		e1.setEid(1l);
