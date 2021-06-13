@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="/lib/bootstrap/css/style.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/lib/bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/lib/bootstrap/js/popper.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+  
+    <title>Create Account</title>
+	
+  </head>
+  <body>
+     
+     <div class="container">
+	    <form >
+		   <div class="header custom" style="height: 40px;margin-top: 5%;margin-bottom: 2rem;background-color: #e9ecef;border-radius: .3rem;padding: 5px;text-align: center;">
+		      Create Account
+		   </div>
+		   <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstname" class="font-weight-bold">Firstname</label>
+              <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp">
+           </div>
+           <div class="form-group col-md-6">
+             <label for="lastname" class="font-weight-bold">Lastname</label>
+             <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp">
+           </div>
+          </div>
+		  <div class="form-row">
+            <div class="form-group col-md-6">
+               <label for="email" class="font-weight-bold">Email</label>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+           </div>
+           <div class="form-group col-md-6">
+             <label for="mobileNumber" class="font-weight-bold">Mobile number</label>
+             <input type="mobileNumber" class="form-control" id="mobileNumber">
+           </div>
+          </div>
+		  <div class="form-row">
+           <div class="form-group col-md-6">
+             <label for="password" class="font-weight-bold">Password</label>
+             <input type="password" class="form-control" id="password">
+           </div>
+		   <div class="form-group col-md-6">
+               <label for="confirmPassword" class="font-weight-bold">Re-enter password</label>
+              <input type="text" class="form-control" id="confirmPassword" aria-describedby="emailHelp">
+           </div>
+          </div>
+		  <div class="form-row">
+           <div class="form-group col-md-6">
+             <label for="address1" class="font-weight-bold">Address1</label>
+             <input type="text" class="form-control" id="address1">
+           </div>
+		  <div class="form-group col-md-6">
+             <label for="address2" class="font-weight-bold">Address2</label>
+             <input type="text" class="form-control" id="address2">
+           </div>
+          </div>
+		  <div class="form-row">
+            <div class="form-group col-md-6">
+               <label for="inputCity" class="font-weight-bold">City</label>
+               <input type="text" class="form-control" id="inputCity">
+            </div>
+           <div class="form-group col-md-4">
+               <label for="inputState" class="font-weight-bold">State</label>
+               <select id="inputState" class="form-control">
+                 <option selected>Choose State</option>
+                 <option>Bhopal</option>
+				 <option>AndraPradesh</option>
+				 <option>Rajasthan</option>
+               </select>
+          </div>
+		  <div class="form-group col-md-2">
+             <label for="inputZip" class="font-weight-bold">Zip</label>
+             <input type="text" class="form-control" id="inputZip">
+          </div>
+		 </div>
+		 <div class="form-row">
+            <div class="label_custom">
+              <label for="firstname" class="font-weight-bold">Gendar</label>
+           </div>
+		   </div>
+		 <div class="form-row">
+             <div class="form-group form-check" style="padding-right: 25px;padding-left: 25px;">
+                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Male
+                </label>
+             </div>
+			 <div class="form-group form-check" style="padding-right: 25px;padding-left: 25px;">
+                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Female
+                </label>
+             </div>
+			 <div class="form-group form-check" style="padding-right: 25px;padding-left: 25px;">
+                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Custom
+                </label>
+             </div>
+         </div>
+		 <div class="form-row">
+            <div class="label_custom">
+              <label for="agreemsg" >By creating an account ,you agree with <a href="#">Terms Of Conditions</a> and <a href="#">Privacy Notice</a></label>
+           </div>
+		   </div>
+		   <div class="form-row">
+             <button type="submit" class="form-control btn btn-primary btn-lg">Create Account</button>
+		   </div>
+        </form>
+     </div>
+  </body>
+</html>

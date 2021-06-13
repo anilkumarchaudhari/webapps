@@ -1,0 +1,54 @@
+
+.custom{
+	height: 40px;
+	margin-top: 10%;
+	margin-bottom: 2rem;
+	background-color: #e9ecef;
+	border-radius: .3rem;
+	padding: 5px;
+	text-align: center;
+}
+.forgot{
+	text-align:center;
+}
+.label_custom{
+	padding-right: 5px;
+    padding-left: 5px;
+}
+.signup{
+	background-color: #e9ecef;
+	color: black;
+}
+.container{
+	width: 40% ;
+	}
+.container_create{	
+   width: 50% ;
+	}
+@media (max-width: 575px) { 
+	.container{
+	width: 100% ;
+	}
+  
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+	
+.container{
+	width: 100% ;
+	}
+ }
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	.container{
+	width: 100% ;
+	}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.container{
+	width: 100% ;
+	}
+
+ }
