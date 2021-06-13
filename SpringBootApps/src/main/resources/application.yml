@@ -1,0 +1,10 @@
+pagecontroller:
+   msg: "Hello from YML Config"
+   foo: "foo"
+   bar: "bar"
+myconfig:
+   app-name: My Application Name
+   app-description: ${myconfig.app-name} is a SpringBoot Application
+   admin-first-name: Dan
+   admin-last-name: Vega
+   adminEmail: danvega@gmail.com
