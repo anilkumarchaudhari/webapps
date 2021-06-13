@@ -1,0 +1,26 @@
+DeviceId,Count,Email,Reason
+1,2,anil@gmail.com,email is correct
+2,1,anil1@gmail.com,invlid device
+3,2,anil3@gmail.com,email is correct
+4,2,anil4@gmail.com,email is correct
+5,2,anil5@gmail.com,email is correct
+6,2,anil6@gmail.com,email is correct
+7,2,anil7@gmail.com,email is correct
+8,2,anil8@gmail.com,email is correct
+9,2,anil9@gmail.com,email is correct
+10,2,anil10@gmail.com,email is correct
+11,2,anil11@gmail.com,email is correct
+12,2,anil12@gmail.com,email is correct
+13,2,anil13@gmail.com,email is correct
+14,2,anil14@gmail.com,email is correct
+15,2,anil15@gmail.com,email is correct
+16,2,anil16@gmail.com,email is correct
+17,2,anil17@gmail.com,email is correct
+18,2,anil18@gmail.com,email is correct
+19,2,anil19@gmail.com,email is correct
+20,2,anil20@gmail.com,email is correct
+21,2,anil21@gmail.com,email is correct
+22,2,anil22@gmail.com,email is correct
+23,2,anil23@gmail.com,email is correct
+24,2,anil24@gmail.com,device is correct
+25,3,anil25@gmail.com,email is invalid
